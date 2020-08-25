@@ -269,6 +269,13 @@
     <Compile Include="LoginPasajero.aspx.designer.cs">
       <DependentUpon>LoginPasajero.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MaestraSesion.Master.cs">
+      <DependentUpon>MaestraSesion.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MaestraSesion.Master.designer.cs">
+      <DependentUpon>MaestraSesion.Master</DependentUpon>
+    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -374,6 +381,7 @@
     <Content Include="obj\Debug\PL.csprojAssemblyReference.cache" />
     <Content Include="obj\Release\PL.csproj.CoreCompileInputs.cache" />
     <Content Include="obj\Release\PL.csprojAssemblyReference.cache" />
+    <Content Include="MaestraSesion.Master" />
     <None Include="packages.config" />
     <Content Include="UAMexpress.Master" />
     <None Include="Web.Debug.config">
